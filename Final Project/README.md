@@ -1,6 +1,6 @@
 Twitter Data Analysis on 'Snapchat'
 
-https://cloud.githubusercontent.com/assets/24615819/25298919/da16a560-26c7-11e7-878a-a0ba798dca6d.png
+![alt tag](https://cloud.githubusercontent.com/assets/24615819/25298919/da16a560-26c7-11e7-878a-a0ba798dca6d.png)
 
 Collecting Data:
 
@@ -32,7 +32,7 @@ Once I have the data in dictionary I sort it using a list and then display Top 1
 This helps is knowing which user and from which part of the world is most influential.
 A bar graph is plotted for all the timezones present and their corresponding count is noted.
 
-https://cloud.githubusercontent.com/assets/24615819/25298922/e03cc672-26c7-11e7-8e23-9c010c96d099.png
+![alt tag](https://cloud.githubusercontent.com/assets/24615819/25298922/e03cc672-26c7-11e7-8e23-9c010c96d099.png)
 
 
 Analysis 2:
@@ -46,7 +46,7 @@ Once all the tweets sentiment is calculated, Percentage is calculated for each o
 Along with percentage, the 10 positive and negative tweets are displayed.
 A pie chart is created to understand the overall sentiment of tweets for the given data.
 
-https://cloud.githubusercontent.com/assets/24615819/25298924/e4806a5e-26c7-11e7-92ef-89212e3f7f0a.png
+![alt tag](https://cloud.githubusercontent.com/assets/24615819/25298924/e4806a5e-26c7-11e7-92ef-89212e3f7f0a.png)
 
 While doing this analysis I even developed a method to find sentimental analysis realtime using tweepy from python. In realtime we give the query word , I have executed for ‘Car’ and based on the 200 queries count the sentiment analysis is calculated.
 
@@ -62,18 +62,20 @@ So I extract the day of the week and hour of the day from ‘created_at’.
 Once I have the day, I create a nested dictionary of the format{Day:{Hours_of_the_Day}}
 I then convert this nested dictionary into pandas dataframe and rename columns and reset index and replace all NAN by 0.
 Then I calculate its cumulative sum and plot it to find the tweets trend.
- https://cloud.githubusercontent.com/assets/24615819/25298926/e90076a0-26c7-11e7-93b5-6cacdab9a6c0.png
+
+ ![alt tag](https://cloud.githubusercontent.com/assets/24615819/25298926/e90076a0-26c7-11e7-93b5-6cacdab9a6c0.png)
 
 
 Analysis on number of tweets wrt time period is done by extracting the hour of the day from ‘created_at’ field and then storing in a dictionary which has keys based on time intervals – Morning, Afternoon, Evening and Night irrespective of the day
-https://cloud.githubusercontent.com/assets/24615819/25298928/ee076b86-26c7-11e7-9162-1a5a2683a306.png
+
+![alt tag](https://cloud.githubusercontent.com/assets/24615819/25298928/ee076b86-26c7-11e7-9162-1a5a2683a306.png)
 
 
 Analysis on number of tweets with respect to day is done by extracting the day from ‘created_at’ field and then storing in a dictionary for each day.
 A barchart is ploted using seaborn. 
-https://cloud.githubusercontent.com/assets/24615819/25298931/f307fcb8-26c7-11e7-942c-40590b040590.png
+![alt tag](https://cloud.githubusercontent.com/assets/24615819/25298931/f307fcb8-26c7-11e7-942c-40590b040590.png)
 
-https://cloud.githubusercontent.com/assets/24615819/25298933/f6ed116a-26c7-11e7-952e-76750d13cf08.png
+![alt tag](https://cloud.githubusercontent.com/assets/24615819/25298933/f6ed116a-26c7-11e7-952e-76750d13cf08.png)
 
 
 Additional Libraries required:
